@@ -60,9 +60,9 @@ let iifeGlobal = (() => {
   playMusica.playMultimedia();
   playMusica.setInicio(200);
   
-  let playPelicula = new Reproductor("https://www.youtube.com/embed/VIDEO_ID", peliculas);
+  let playPelicula = new Reproductor("https://www.youtube.com/embed/CoZqL9N6Rx4?si=7K6kuCk7uGsd-CmX", peliculas);
   playPelicula.playMultimedia();
   
-  let playSerie = new Reproductor("https://www.youtube.com/embed/VIDEO_ID", series);
+  let playSerie = new Reproductor("https://www.youtube.com/embed/UHiwdDFPsZY?si=Xp4YU_J1FUmWUETC", series);
   playSerie.playMultimedia();
   
