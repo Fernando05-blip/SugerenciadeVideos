@@ -48,15 +48,12 @@ let iifeGlobal = (() => {
     }
   }
   
-  // Crear elementos de ejemplo
-  let musica = document.createElement('iframe');
-  let peliculas = document.createElement('iframe');
-  let series = document.createElement('iframe');
-  
-  // Añadir los elementos al documento para su visualización
-  document.body.appendChild(musica);
-  document.body.appendChild(peliculas);
-  document.body.appendChild(series);
+  // Obtener los elementos iframe por su id
+  let musica = document.getElementById('musica');
+  let peliculas = document.getElementById('peliculas');
+  let series = document.getElementById('series');
+
+
   
   // Crear instancias de Reproductor para reproducir diferentes videos
   let playMusica = new Reproductor("https://www.youtube.com/embed/OuMEhaPQ-P8?si=7bOX4CQ_9ixmotHV", musica);
